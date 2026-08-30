@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* typography ringan */
+.prose p { @apply leading-relaxed text-slate-700; }
+.prose h1, .prose h2, .prose h3 { @apply font-bold text-slate-900; }
+.prose ul { @apply list-disc pl-6 text-slate-700; }
+.prose a { @apply text-blue-700 underline; }
+/* nice typography helper */
+.prose p { @apply text-slate-700 leading-relaxed; }
+.prose h2 { @apply text-slate-900 font-extrabold; }
+
